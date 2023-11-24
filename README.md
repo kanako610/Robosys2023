@@ -11,25 +11,23 @@ $ git clone https://github.com/kanako610/Robosys2023.git
 $ git clone git@github.com:kanako610/Robosys2023.git
 ```
 
+#コードの説明
+```
+pulsコマンド
+
+```
+
+#実行方法
+
+#必要なソフトウェア
+python 3. ~3. 
+　テストで確認済
+
+#テスト環境
+・Ubuntu20.04
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#備考
 *このソフトウェアパッケージは、３条項BSDライセンスの下、再頒布および使用が許可されます.
 *このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
  *　©　2023 Kanako Takahashi
