@@ -1,7 +1,19 @@
 # Robosys2023
 ロボットシステム学2023
+
 [![test](https://github.com/kanako610/Robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/kanako610/Robosys2023/actions/workflows/test.yml)
- ##
+
+# ダウンロード方法
+このプロジェクトをクローンするには、次のコマンドを実行してください.
+```
+$ git clone https://github.com/kanako610/Robosys2023.git
+または
+$ git clone git@github.com:kanako610/Robosys2023.git
+```
+
+
+
+
 
 
 
