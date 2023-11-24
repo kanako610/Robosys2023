@@ -12,18 +12,21 @@ $ git clone git@github.com:kanako610/Robosys2023.git
 ```
 
 #コードの説明
-```
 pulsコマンド
+```
 
 ```
 
 #実行方法
 
 #必要なソフトウェア
-python 3. ~3. 
-　テストで確認済
+
+・python 3. ~3.
+ 
+　・テストで確認済
 
 #テスト環境
+
 ・Ubuntu20.04
 
 
