@@ -3,11 +3,14 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
-ans =0
+ans = 0
+ans2 =1
 for line in sys.stdin:
     try:
         ans += int(line)
+        ans2 *= int(line)
     except:
         ans += float(line)
-print(ans)
-
+        ans2 *=float(line)
+print(f"足し算の答えは:{ans}")
+print(f"掛け算のの答えは:{ans2}")
