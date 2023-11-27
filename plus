@@ -8,9 +8,10 @@ ans2 =1
 for line in sys.stdin:
     try:
         ans += int(line)
-        ans2 *= int(line)
+   #     ans2 *= int(line)
     except:
         ans += float(line)
-        ans2 *=float(line)
-print(f"足し算の答えは:{ans}")
-print(f"掛け算のの答えは:{ans2}")
+      #  ans2 *=float(line)
+print(ans)
+#print(f"足し算の答えは:{ans}")
+#print(f"掛け算のの答えは:{ans2}")
