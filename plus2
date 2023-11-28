@@ -3,8 +3,6 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
-import sys
-
 ans = 0
 ans2 = 1
 max_number = float('-inf')  # 最大値を格納する変数をマイナス無限大で初期化
@@ -30,41 +28,3 @@ print(f"掛け算の答えは: {ans2}")
 print(f"最大の数値は: {max_number}")
 print(f"最小の数値は: {min_number}")
 
-#ans = 0
-#ans2 = 1
-#max_number = float('-inf')  # 最大値を格納する変数をマイナス無限大で初期化
-#min_number = float('inf')
-
-#for line in sys.stdin:
- #   try:
-  #      num = float(line)
-   #     ans += num
-    #    ans2 *= num
-        
-   #     if num > max_number:  # より大きい数字が見つかった場合、最大値を更新
-    #        max_number = num
-            
-     #    if num > min_number:  # より大きい数字が見つかった場合、最大値を更新
-      #      min_number = num
-
-    #except ValueError:
-     #   pass
-
-
-
-#print(f"足し算の答えは: {ans}")
-#print(f"掛け算の答えは: {ans2}")
-#print(f"最大の数値は: {max_number}")
-#print(f"最小の数値は: {min_number}")
-
-#ans = 0
-#ans2 =1
-#for line in sys.stdin:
- #   try:
-  #      ans += int(line)
-   #     ans2 *= int(line)
-    #except:
-     #   ans += float(line)
-      #  ans2 *=float(line)
-#print(f"足し算の答えは:{ans}")
-#print(f"掛け算の答えは:{ans2}")
