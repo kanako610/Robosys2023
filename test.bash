@@ -9,27 +9,37 @@ ng(){
 
 res=0
 
-	###I/O TEST###
-	out=$(seq 5 |./plus)
-	[ "${out}" = 15 ] || ng ${LINENO}
+###I/O TEST###
+out=$(seq 5 |./plus)
+[ "${out}" = 15 ] || ng ${LINENO}
 
 
-	### STRANGE INPUT ###
-	out=$(echo あ　| ./plus)
-	[ "$?" = 1 ]     || ng ${LINENO}
-	[ "${out}" = "" ] || ng ${LINENO}
+###Plus STRANGE INPUT ###
+out=$(echo あ　| ./plus)
+[ "$?" = 1 ]     || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
 
-	out=$(echo |./plus)
-	[ "$?" = 1 ]     || ng${LINENO}
-	[ "${out}" = "" ] || ng${LINENO}
+out=$(echo  |./plus)
+[ "$?" = 1 ]     || ng${LINENO}
+[ "${out}" = "" ] || ng${LINENO}
 
 
-	###Plus2 INPUT###
-	out=$(seq 5 |./plus2)
-        [ "${out}" = '足し算の答えは: 15.0
+###Plus2 TEST###
+out=$(seq 5 |./plus2)
+[ "${out}" = '足し算の答えは: 15.0
 掛け算の答えは: 120.0
 最大の数値は: 5.0
 最小の数値は: 1.0' ] || ng ${LINENO}
+
+###Plus2 STRANGE INPUT ###
+out=$(echo あ　| ./plus)
+[ "$?" = 1 ]     || ng ${LINENO}
+[ "${out}" = "" ] || ng ${LINENO}
+
+out=$(echo  |./plus)
+[ "$?" = 1 ]     || ng${LINENO}
+[ "${out}" = "" ] || ng${LINENO}
+       
 
 [ "$res" = 0 ] && echo OK
 exit $res
