@@ -1,7 +1,6 @@
 [![test](https://github.com/kanako610/Robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/kanako610/Robosys2023/actions/workflows/test.yml)  
 
 # Robosys2023
-ロボットシステム学2023
 
 ロボットシステム学2023の練習用のコードが入ったリポジトリーです。
 
