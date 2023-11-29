@@ -27,12 +27,15 @@ $ git clone git@github.com:kanako610/Robosys2023.git
 $ seq(計算させたい数字を入力してください)|./plus
 ```
 
-###実行例
+実行例
+===
+
 ```
 $ seq 5 |./plus
 ```
 
-##実行結果
+実行結果
+---
 
 plusコマンドの実行結果(例えば５を入れた場合)
 ```
