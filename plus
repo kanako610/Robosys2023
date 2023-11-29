@@ -4,12 +4,13 @@
 
 import sys
 
-ans = 0
+ans = 0 # もともと0.0だったのを０に変更
 
 for line in sys.stdin:
+
     try:
-        ans += int(line)
+        ans += int(line) # int文字列を整数に（失敗すると例外発生）
     except:
-        ans += float(line)
+        ans += float(line) # 例外処理
 
 print(ans)

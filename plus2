@@ -13,12 +13,13 @@ for line in sys.stdin:
         num = float(line)
         ans += num
         ans2 *= num
-        
+
         if num > max_number:  # より大きい数字が見つかった場合、最大値を更新
             max_number = num
         
         if num < min_number:  # より小さい数字が見つかった場合、最小値を更新
             min_number = num
+
     except ValueError:
         pass
 
