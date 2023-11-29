@@ -16,7 +16,8 @@ $ git clone https://github.com/kanako610/Robosys2023.git
 $ git clone git@github.com:kanako610/Robosys2023.git
 ```
 
-#pulsコマンド
+pulsコマンド
+===
 
 説明
 ---
@@ -46,7 +47,8 @@ plusコマンドの実行結果(例えば５を入れた場合)
 ```
 と表示されます。
 
-#plus2コマンド
+plus2コマンド
+===
 
 説明
 ---  
