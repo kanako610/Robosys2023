@@ -24,7 +24,6 @@ for line in sys.stdin:
     except ValueError:
         pass
 
-
 print(f"足し算の答えは: {ans}")
 print(f"掛け算の答えは: {ans2}")
 print(f"最大の数値は: {max_number}")
