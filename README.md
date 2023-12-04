@@ -16,7 +16,7 @@ $ git clone https://github.com/kanako610/Robosys2023.git
 $ git clone git@github.com:kanako610/Robosys2023.git
 ```
 
-pulsコマンド
+plusコマンド
 ===
 
 説明
